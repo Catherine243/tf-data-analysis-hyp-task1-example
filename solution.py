@@ -12,6 +12,6 @@ def solution(x_success: int,
       res=st.chi2_contingency(table, correction=False)[1]
       pv = res/2.0
       if (pv < 0.01):
-      return True
+          return True
       else:
-      return False 
+          return False 
